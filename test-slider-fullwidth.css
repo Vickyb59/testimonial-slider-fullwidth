@@ -1,15 +1,33 @@
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
 .testimonials {
   overflow: hidden;
   position: relative;
-  max-height: 300px;
+  min-height: 300px;
 }
 
 .testimonials {
-  background: #161d25;
+  background: #171b38;
+}
+
+.testimonials h2{
+  text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 2rem;
+    margin-top: 0px;
+    font-weight: 400;
+}
+
+.blockquote-footer ul li {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #c5c53a;
+}
+
+.testimonial-carousel .message {
+    line-height: 24px;
+    color: #fff;
+    font-style: italic;
+    font-size: 1.23rem;
+    font-weight: 300;
 }
 
 .one-slide,
@@ -30,6 +48,7 @@ body {
 }
 
 .carousel-controls .control {
+  display: none!important;
   position: absolute;
   transform: translateY(-50%);
   width: 45px;
